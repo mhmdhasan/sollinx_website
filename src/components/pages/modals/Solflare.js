@@ -18,12 +18,12 @@ const SolflareModal = ({onModal}) => {
                                 The Solana network has processed more than 52 billion transactions, which is roughly 30 times more than bitcoin and Ethereum's total transactions combined, according to the report.
                                 </p>
                                 <div className="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
-                                    <a href="#" className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
+                                    <div className="w-full sm:w-auto bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700">
                                         
                                         <div className="text-left">
                                             <div className="-mt-1 font-sans text-sm font-semibold"><a href="https://www.solana.com">Get Solana App</a></div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
