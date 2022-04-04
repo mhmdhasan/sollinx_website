@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Layout from "../layouts";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
@@ -46,8 +47,9 @@ const Community = () => {
                     </div>
                     {showDropdown ? (<div className="w-full mb-5 text-center">
                         <button className="w-4/5 sm:w-4/5 md:w-6/12 mx-5 mt-3 bg-theme_paper text-sm text-white active:bg-sky-600 font-bold text-base px-8 py-3 rounded-full shadow-md hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150" type="button"
-                        >
+                        ><Link to="/finance">
                             Finance
+                        </Link>
                         </button>
                         <button className="w-4/5 sm:w-4/5 md:w-6/12 mx-5 mt-3 bg-theme_paper text-sm text-white active:bg-sky-600 font-bold text-base px-8 py-3 rounded-full shadow-md hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150" type="button"
                         >
