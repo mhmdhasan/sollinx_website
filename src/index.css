@@ -16,3 +16,10 @@ code {
     monospace;
 }
 
+.lazy {
+  background-image: none;
+  background-color:rgb(36, 38, 56);
+  width: 172;
+  height: 201;
+}
+

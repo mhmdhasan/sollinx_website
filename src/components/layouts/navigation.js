@@ -1,5 +1,7 @@
 import { Outlet, NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 const Navigator = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
@@ -13,7 +15,10 @@ const Navigator = () => {
                             className="flex items-center text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                             href="#"
                         >
-                            <img className="w-10 h-auto invert" src="./assets/images/logoSollinx.png" alt="logo"></img>
+                            <div className="w-10 h-auto invert min-h-nav md:min-h-nav">
+                                &nbsp;
+                                <LazyLoadImage src="./assets/images/logoSollinx.png" effect="blur" alt="logo" />
+                            </div>
                             <p className="ml-4 text-xl">Sollinx</p>
                         </a>
                         <button
@@ -26,7 +31,7 @@ const Navigator = () => {
                                 focusable="false"
                                 data-prefix="fas"
                                 data-icon="bars"
-                                class="w-6"
+                                className="w-6"
                                 role="img"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 448 512"
