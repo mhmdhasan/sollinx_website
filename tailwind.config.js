@@ -10,11 +10,12 @@ module.exports = {
       'theme_deep': '#0e0e0e',
       'theme_text': '#ffffff',
       'theme_paper': '#f1f1f1',
+      'theme_button': '#98e2ff',
     },
     minHeight: {
       'nav': '6vh',
-      'sm': '20vw',
-      'md': '10vw',        
+      'sm': '10vw',
+      'md': '5vw',        
     }
   },
   plugins: [],

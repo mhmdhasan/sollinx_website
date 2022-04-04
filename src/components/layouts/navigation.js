@@ -11,7 +11,7 @@ const Navigator = () => {
             <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-theme_primary text-theme_text">
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-                        <a
+                        {/* <a
                             className="flex items-center text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
                             href="#"
                         >
@@ -20,7 +20,10 @@ const Navigator = () => {
                                 <LazyLoadImage src="./assets/images/logoSollinx.png" effect="blur" alt="logo" />
                             </div>
                             <p className="ml-4 text-xl">Sollinx</p>
-                        </a>
+                        </a> */}
+                        <div>
+
+                        </div>
                         <button
                             className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
                             type="button"
@@ -64,7 +67,7 @@ const Navigator = () => {
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#"
                                 >
-                                    <span className="ml-2"><NavLink to="/community">Community</NavLink></span>
+                                    <span className="ml-2"><NavLink to="/community">Communities</NavLink></span>
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -72,7 +75,7 @@ const Navigator = () => {
                                     className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
                                     href="#"
                                 >
-                                    <span className="ml-2"><NavLink to="/finance">Finance</NavLink></span>
+                                    <span className="ml-2"><NavLink to="/finance">Finance Community</NavLink></span>
                                 </a>
                             </li>
                         </ul>
