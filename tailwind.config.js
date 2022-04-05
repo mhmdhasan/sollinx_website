@@ -11,6 +11,11 @@ module.exports = {
       'theme_text': '#ffffff',
       'theme_paper': '#f1f1f1',
       'theme_button': '#98e2ff',
+      'theme_dropdown1': '#1B75BB',
+      'theme_dropdown2': '#2D81C2',
+      'theme_dropdown3': '#63A5D9',
+      'theme_dropdown4': '#70AEDE',
+      'theme_dropdown5': '#82BBE8',
     },
     minHeight: {
       'nav': '6vh',

@@ -35,14 +35,14 @@ const Home = () => {
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Community</h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left  w-24 h-auto rounded-t-lg md:h-auto md:w-24 md:rounded-none md:rounded-l-lg" loading="lazy" src="	./assets/images/community.png" alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left  w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="	./assets/images/communitylogo.png" alt="" />
                             The Solana system allows <b>Sollinx</b> communities to be totally private.  Membership and participation requires no name, no e-mail address, no phone number, no personal information. Period.</p>
                     </div>
                 </div>
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Privacy</h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-24 h-auto rounded-t-lg md:h-auto md:w-24 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/privacy.png" alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/privacy.png" alt="" />
                             Members must own Sollinx tokens in order to access community content.  Digital “wallets”, on laptops or computers, hold Sollinx tokens. The Solflare app (free) creates wallets to hold Sollinx tokens.</p>
                     </div>
                 </div>
