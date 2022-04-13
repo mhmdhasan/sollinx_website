@@ -23,21 +23,21 @@ const Finance = () => {
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/money.png" style={{ shapeOutside: "none" }} alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/money.png" style={{ shapeOutside: "none", marginRight: "15px" }} alt="" />
                         Finance is a fundamental aspect of life.  SollinxFinance is a community focused on better financial decision-making. Content threads are: "securities", "debt", "insurance", "crypto", "real estate", and "tax".</p>
                     </div>
                 </div>
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/groupwTarget.png" style={{ shapeOutside: "none" }} alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/groupwTarget.png" style={{ shapeOutside: "none", marginRight: "15px" }} alt="" />
                         This community centers on relevant, timely, and accurate content on financial topics.  Content clearly differentiates between fact, observation, opinion, and advice. Members learn in order to better decide and act.</p>
                     </div>
                 </div>
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/trust.png" style={{ shapeOutside: "none" }} alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/trust.png" style={{ shapeOutside: "none", marginRight: "15px" }} alt="" />
                         Wise individuals seek good information to make better decisions. The Sollinx community creates and promulgates information worthy of trust.</p>
                     </div>
                 </div>

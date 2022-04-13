@@ -40,4 +40,14 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    setTimeout(() => {
+      const audio = new Audio('https://www.soundjay.com/buttons/beep-01a.mp3')
+      const button = document.querySelector('button')
+
+      button.addEventListener('click', (e) => {
+        audio.play()
+      })
+    }, 5000)
+  </script>
 </html>

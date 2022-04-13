@@ -16,6 +16,7 @@ module.exports = {
       'theme_dropdown3': '#63A5D9',
       'theme_dropdown4': '#70AEDE',
       'theme_dropdown5': '#82BBE8',
+      'theme_modalfont': '#3471bd',
     },
     minHeight: {
       'nav': '6vh',

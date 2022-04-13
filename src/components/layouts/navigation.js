@@ -8,7 +8,7 @@ const Navigator = () => {
 
     return (
         <>
-            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-theme_primary text-theme_text">
+            <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-theme_primary text-theme_text" style={{position:"fixed", top:"0px",width:"100%", zIndex: "100"}}>
                 <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                     <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                         {/* <a
