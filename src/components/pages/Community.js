@@ -30,14 +30,14 @@ const Community = () => {
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/communitylogo.png" style={{ shapeOutside: "none" }} alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/basketwClock.png" style={{ shapeOutside: "none" }} alt="" />
                             Information in content threads is classified as “current”, “archived”, and “reference”.  This structure helps community members find information.  Access to all information is limited to holders of Sollinx tokens.</p>
                     </div>
                 </div>
                 <div className="m-auto w-10/12 md:w-10/12 mt-5 md:flex items-center bg-theme_paper rounded-lg md:flex-row hover:bg-theme_paper dark:border-theme_paper dark:bg-theme_paper dark:hover:bg-theme_paper">
                     <div className="flex flex-col justify-between p-0 leading-normal">
                         <h5 className="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"></h5>
-                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/communitylogo.png" style={{ shapeOutside: "none" }} alt="" />
+                        <p className="mb-3 font-normal md:text-xl lg:text-2xl text-gray-700 dark:text-gray-400"><img className="object-cover float-left w-16 h-auto rounded-t-lg md:h-auto md:w-16 md:rounded-none md:rounded-l-lg" loading="lazy" src="./assets/images/privacy.png" style={{ shapeOutside: "none" }} alt="" />
                             All community Information is private, confidential, proprietary, and privileged between parties of the community.  Community content is valuable.  The community expects members to protect its content.</p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Community = () => {
                         </button>
                         <button className="w-full bg-theme_dropdown4 text-sm text-white active:bg-sky-600 font-bold text-base px-8 py-3 rounded-3xl shadow-md hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150" style={{color:"#ffffff", height:"120px", zIndex:"20", top:"-100px", position: "relative"}} type="button"
                         >
-                                <img className="w-10 h-8  float-left mr-2 mt-2" src="./assets/images/it_btn.png" /><p className="mt-3 text-xl" style={{textAlign:"start"}}>Nutrition</p>
+                                <img className="w-10 h-8  float-left mr-2 mt-4" src="./assets/images/it_btn.png" /><p className="mt-6 text-xl" style={{textAlign:"start", display:"table-cell"}}>Information technology</p>
                         </button>
                         <button className="w-full bg-theme_dropdown5 text-sm text-white active:bg-sky-600 font-bold text-base px-8 py-3 rounded-3xl shadow-md hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150" style={{color:"#ffffff", height:"120px", zIndex:"10", top:"-130px", position: "relative"}} type="button"
                         >
